@@ -1,0 +1,13 @@
+/*@Reabaln- CSS for form page*/
+
+.boarder {
+    width:800px;
+    margin: auto;
+  }
+form {
+    background-color: #ecf9f4;
+}
+
+input {
+    border: 2px solid #555;
+}

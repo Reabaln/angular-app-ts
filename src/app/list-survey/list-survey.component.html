@@ -1,0 +1,49 @@
+<!--@Reabaln-->
+<!--This view will display the list of all recorded surveys-->
+<body>
+      <table>
+            <tr>
+            <th> First Name </th>
+            <th> Last Name</th>
+            <th>Street Address</th>
+            <th>city</th>
+            <th>State</th>
+            <th>ZIP</th>
+            <th>Phone Number</th>
+            <th>Email</th>
+            <th>Survey Date</th>
+            <th>Like students?</th>
+            <th>Like location?</th>
+            <th>Like campus?</th>
+            <th>Like Atmoshpere?</th>
+            <th>Like doorm?</th>
+            <th>Lke room?</th>
+            <th>Like sports?</th>
+            <th>How Interested?</th>
+            <th>Recommendation?</th>
+            </tr>
+
+
+            <tr *ngFor="let student of students">
+            <td>{{student.firstName}}</td>
+            <td>{{student.lastName}}</td>
+            <td>{{student.streetAddress}}</td>
+            <td>{{student.city}}</td>
+            <td>{{student.state}}</td>
+            <td>{{student.zip}}</td>
+            <td>{{student.phoneNumber}}</td>
+            <td>{{student.email}}</td>
+            <td>{{student.surveyDate}}</td>
+            <td>{{student.isStudent}}</td>
+            <td>{{student.isLocation}}</td>
+            <td>{{student.isCampus}}</td>
+            <td>{{student.isAtmosphere}}</td>
+            <td>{{student.isDorm}}</td>
+            <td>{{student.isRoom}}</td>
+            <td>{{student.isSport}}</td>
+            <td>{{student.interest}}</td>
+            <td>{{student.likelihood}}</td>
+
+            </tr>
+            </table>
+</body>

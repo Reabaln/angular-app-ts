@@ -1,0 +1,15 @@
+<!--@Reabaln-->
+<!-- This page will display the approproiate component using the router-outlet based on the user's activity-->
+<div align="center" style="background-color:#E8E8E8 ;">
+<h1>Welcome to Prospective Student Survey</h1>
+
+<div class="button-row" style="background-color:#E8E8E8 ;">
+<nav mat-tab-nav-bar> 
+  <button mat-raised-button  routerLink="/new" routerLinkActive="active" >Take a new survey!</button> 
+  <button mat-raised-button  routerLink="/list" routerLinkActive="active" >list all recorded surveys</button>
+</nav>
+</div>
+</div>
+
+
+<router-outlet></router-outlet>
